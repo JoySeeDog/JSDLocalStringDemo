@@ -5,7 +5,7 @@
 ## Description
 使用本项目可以快速构建类似微信和微博根据系统语言进行国际化以及在应用内进行语言切换等功能，同时无需使用 `Base.lporj` 文件即可指定Base语言。
  
-
+![](https://github.com/JoySeeDog/JSDLocalStringDemo/blob/master/local.gif)
 
 
 ## Usage
