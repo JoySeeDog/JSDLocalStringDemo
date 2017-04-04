@@ -25,6 +25,9 @@
     
     JSDLocalizationSetBaseLanguage(JSDLanguageEnglish);
     
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(didReceiveedShouldResetRootViewController) name:JSDAppDelegateShouldUpdateUINotification object:nil];
+
+    
     
      self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     JSDTabBarController *rootViewController = [[JSDTabBarController alloc] init];
@@ -34,7 +37,6 @@
     
     [self.window makeKeyAndVisible];
     
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(didReceiveedShouldResetRootViewController) name:JSDAppDelegateShouldUpdateUINotification object:nil];
     
     
     return YES;

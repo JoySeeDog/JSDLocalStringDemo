@@ -50,6 +50,7 @@
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    
     JSDLocalizationChangeLanguage(self.languagesCode[indexPath.row]);
     
     
