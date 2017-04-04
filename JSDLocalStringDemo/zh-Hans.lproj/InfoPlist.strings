@@ -1,0 +1,8 @@
+/* 
+  InfoPlist.strings
+  JSDLocalStringDemo
+
+  Created by JoySeeDog on 01/04/2017.
+  Copyright © 2017 JoySeeDog. All rights reserved.
+*/
+CFBundleDisplayName ="中文";

@@ -2,11 +2,16 @@
 //  AppDelegate.m
 //  JSDLocalStringDemo
 //
-//  Created by jianquan on 31/03/2017.
+//  Created by JoySeeDog on 31/03/2017.
 //  Copyright © 2017 JoySeeDog. All rights reserved.
 //
 
 #import "AppDelegate.h"
+#import "JSDTabBarController.h"
+#import "JSDLocalize.h"
+#import "JSDSettingViewController.h"
+#import "JSDLanguageViewController.h"
+
 
 @interface AppDelegate ()
 
@@ -17,6 +22,21 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    JSDLocalizationSetBaseLanguage(JSDLanguageEnglish);
+    
+    
+     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    JSDTabBarController *rootViewController = [[JSDTabBarController alloc] init];
+   
+    
+    self.window.rootViewController = rootViewController;
+    
+    [self.window makeKeyAndVisible];
+    
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(didReceiveedShouldResetRootViewController) name:JSDAppDelegateShouldUpdateUINotification object:nil];
+    
+    
     return YES;
 }
 
@@ -45,6 +65,23 @@
 
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+
+- (void)didReceiveedShouldResetRootViewController
+{
+
+    JSDTabBarController *rootViewController = [[JSDTabBarController alloc] init];
+    rootViewController.selectedIndex = 1;
+    
+    UINavigationController *settingViewController = rootViewController.childViewControllers[1];
+    
+    [settingViewController pushViewController:[JSDLanguageViewController new] animated:YES];
+    
+    
+    self.window.rootViewController = rootViewController;
+    
+    
 }
 
 

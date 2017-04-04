@@ -1,0 +1,28 @@
+/* 
+  Localizable.strings
+  JSDLocalStringDemo
+
+  Created by JoySeeDog on 31/03/2017.
+  Copyright © 2017 JoySeeDog. All rights reserved.
+*/
+
+
+/* No comment provided by engineer. */
+"中文" = "中文";
+
+/* No comment provided by engineer. */
+"德文" = "德文";
+
+/* No comment provided by engineer. */
+"日文" = "日文";
+
+/* No comment provided by engineer. */
+"英文" = "英文";
+
+"多语言" = "多语言";
+
+"返回" = "返回";
+
+"首页" = "首页";
+
+"设置" = "设置";

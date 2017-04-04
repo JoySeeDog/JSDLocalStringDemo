@@ -9,10 +9,15 @@
 /* Begin PBXBuildFile section */
 		CFF260CE1E8DE24A002D6D15 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CFF260CD1E8DE24A002D6D15 /* main.m */; };
 		CFF260D11E8DE24A002D6D15 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CFF260D01E8DE24A002D6D15 /* AppDelegate.m */; };
-		CFF260D41E8DE24A002D6D15 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFF260D31E8DE24A002D6D15 /* ViewController.m */; };
-		CFF260D71E8DE24A002D6D15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFF260D51E8DE24A002D6D15 /* Main.storyboard */; };
 		CFF260D91E8DE24A002D6D15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFF260D81E8DE24A002D6D15 /* Assets.xcassets */; };
 		CFF260DC1E8DE24A002D6D15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFF260DA1E8DE24A002D6D15 /* LaunchScreen.storyboard */; };
+		CFF260E61E8DE2E1002D6D15 /* JSDLocalize.m in Sources */ = {isa = PBXBuildFile; fileRef = CFF260E51E8DE2E1002D6D15 /* JSDLocalize.m */; };
+		CFF260EB1E8DEC41002D6D15 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CFF260ED1E8DEC41002D6D15 /* Localizable.strings */; };
+		CFF260F71E8E0000002D6D15 /* NSBundle+JSDLocalize.m in Sources */ = {isa = PBXBuildFile; fileRef = CFF260F61E8E0000002D6D15 /* NSBundle+JSDLocalize.m */; };
+		CFF261011E8FAF2B002D6D15 /* JSDLanguageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFF261001E8FAF2B002D6D15 /* JSDLanguageViewController.m */; };
+		CFF261081E8FB8FB002D6D15 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CFF2610A1E8FB8FB002D6D15 /* InfoPlist.strings */; };
+		F5A3F3891E933BF700EDECE7 /* JSDTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A3F3881E933BF700EDECE7 /* JSDTabBarController.m */; };
+		F5A3F38C1E93426200EDECE7 /* JSDSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A3F38B1E93426200EDECE7 /* JSDSettingViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +25,30 @@
 		CFF260CD1E8DE24A002D6D15 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CFF260CF1E8DE24A002D6D15 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CFF260D01E8DE24A002D6D15 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CFF260D21E8DE24A002D6D15 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CFF260D31E8DE24A002D6D15 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		CFF260D61E8DE24A002D6D15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CFF260D81E8DE24A002D6D15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CFF260DB1E8DE24A002D6D15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CFF260DD1E8DE24A002D6D15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFF260E41E8DE2E1002D6D15 /* JSDLocalize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSDLocalize.h; sourceTree = "<group>"; };
+		CFF260E51E8DE2E1002D6D15 /* JSDLocalize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSDLocalize.m; sourceTree = "<group>"; };
+		CFF260EA1E8DEC37002D6D15 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		CFF260EC1E8DEC41002D6D15 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		CFF260EE1E8DEC43002D6D15 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		CFF260F51E8E0000002D6D15 /* NSBundle+JSDLocalize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+JSDLocalize.h"; sourceTree = "<group>"; };
+		CFF260F61E8E0000002D6D15 /* NSBundle+JSDLocalize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+JSDLocalize.m"; sourceTree = "<group>"; };
+		CFF260FF1E8FAF2B002D6D15 /* JSDLanguageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSDLanguageViewController.h; sourceTree = "<group>"; };
+		CFF261001E8FAF2B002D6D15 /* JSDLanguageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSDLanguageViewController.m; sourceTree = "<group>"; };
+		CFF261021E8FB7D1002D6D15 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		CFF261031E8FB7D1002D6D15 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		CFF261041E8FB7F6002D6D15 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		CFF261051E8FB7F6002D6D15 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		CFF261091E8FB8FB002D6D15 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CFF2610B1E8FB8FD002D6D15 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		CFF2610C1E8FB900002D6D15 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CFF2610D1E8FB902002D6D15 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F5A3F3871E933BF700EDECE7 /* JSDTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSDTabBarController.h; path = ../JSDTabBarController.h; sourceTree = "<group>"; };
+		F5A3F3881E933BF700EDECE7 /* JSDTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JSDTabBarController.m; path = ../JSDTabBarController.m; sourceTree = "<group>"; };
+		F5A3F38A1E93426200EDECE7 /* JSDSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSDSettingViewController.h; sourceTree = "<group>"; };
+		F5A3F38B1E93426200EDECE7 /* JSDSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSDSettingViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +81,17 @@
 		CFF260CB1E8DE24A002D6D15 /* JSDLocalStringDemo */ = {
 			isa = PBXGroup;
 			children = (
+				CFF2610A1E8FB8FB002D6D15 /* InfoPlist.strings */,
+				CFF260ED1E8DEC41002D6D15 /* Localizable.strings */,
+				CFF260E31E8DE276002D6D15 /* JSDLocalStrings */,
 				CFF260CF1E8DE24A002D6D15 /* AppDelegate.h */,
 				CFF260D01E8DE24A002D6D15 /* AppDelegate.m */,
-				CFF260D21E8DE24A002D6D15 /* ViewController.h */,
-				CFF260D31E8DE24A002D6D15 /* ViewController.m */,
-				CFF260D51E8DE24A002D6D15 /* Main.storyboard */,
+				CFF260FF1E8FAF2B002D6D15 /* JSDLanguageViewController.h */,
+				CFF261001E8FAF2B002D6D15 /* JSDLanguageViewController.m */,
+				F5A3F38A1E93426200EDECE7 /* JSDSettingViewController.h */,
+				F5A3F38B1E93426200EDECE7 /* JSDSettingViewController.m */,
+				F5A3F3871E933BF700EDECE7 /* JSDTabBarController.h */,
+				F5A3F3881E933BF700EDECE7 /* JSDTabBarController.m */,
 				CFF260D81E8DE24A002D6D15 /* Assets.xcassets */,
 				CFF260DA1E8DE24A002D6D15 /* LaunchScreen.storyboard */,
 				CFF260DD1E8DE24A002D6D15 /* Info.plist */,
@@ -77,6 +106,17 @@
 				CFF260CD1E8DE24A002D6D15 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CFF260E31E8DE276002D6D15 /* JSDLocalStrings */ = {
+			isa = PBXGroup;
+			children = (
+				CFF260E41E8DE2E1002D6D15 /* JSDLocalize.h */,
+				CFF260E51E8DE2E1002D6D15 /* JSDLocalize.m */,
+				CFF260F51E8E0000002D6D15 /* NSBundle+JSDLocalize.h */,
+				CFF260F61E8E0000002D6D15 /* NSBundle+JSDLocalize.m */,
+			);
+			path = JSDLocalStrings;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,6 +162,9 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
+				ja,
+				de,
 			);
 			mainGroup = CFF260C01E8DE24A002D6D15;
 			productRefGroup = CFF260CA1E8DE24A002D6D15 /* Products */;
@@ -139,8 +182,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CFF260DC1E8DE24A002D6D15 /* LaunchScreen.storyboard in Resources */,
+				CFF261081E8FB8FB002D6D15 /* InfoPlist.strings in Resources */,
+				CFF260EB1E8DEC41002D6D15 /* Localizable.strings in Resources */,
 				CFF260D91E8DE24A002D6D15 /* Assets.xcassets in Resources */,
-				CFF260D71E8DE24A002D6D15 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,29 +195,50 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFF260D41E8DE24A002D6D15 /* ViewController.m in Sources */,
 				CFF260D11E8DE24A002D6D15 /* AppDelegate.m in Sources */,
+				CFF260E61E8DE2E1002D6D15 /* JSDLocalize.m in Sources */,
+				F5A3F38C1E93426200EDECE7 /* JSDSettingViewController.m in Sources */,
 				CFF260CE1E8DE24A002D6D15 /* main.m in Sources */,
+				CFF260F71E8E0000002D6D15 /* NSBundle+JSDLocalize.m in Sources */,
+				F5A3F3891E933BF700EDECE7 /* JSDTabBarController.m in Sources */,
+				CFF261011E8FAF2B002D6D15 /* JSDLanguageViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CFF260D51E8DE24A002D6D15 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CFF260D61E8DE24A002D6D15 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CFF260DA1E8DE24A002D6D15 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				CFF260DB1E8DE24A002D6D15 /* Base */,
+				CFF260EA1E8DEC37002D6D15 /* zh-Hans */,
+				CFF261021E8FB7D1002D6D15 /* ja */,
+				CFF261041E8FB7F6002D6D15 /* de */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		CFF260ED1E8DEC41002D6D15 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFF260EC1E8DEC41002D6D15 /* en */,
+				CFF260EE1E8DEC43002D6D15 /* zh-Hans */,
+				CFF261031E8FB7D1002D6D15 /* ja */,
+				CFF261051E8FB7F6002D6D15 /* de */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		CFF2610A1E8FB8FB002D6D15 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFF261091E8FB8FB002D6D15 /* en */,
+				CFF2610B1E8FB8FD002D6D15 /* zh-Hans */,
+				CFF2610C1E8FB900002D6D15 /* ja */,
+				CFF2610D1E8FB902002D6D15 /* de */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -183,6 +248,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -230,6 +296,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -273,6 +340,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = GD9P546353;
 				INFOPLIST_FILE = JSDLocalStringDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = JoySeeDog.JSDLocalStringDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -285,6 +353,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = GD9P546353;
 				INFOPLIST_FILE = JSDLocalStringDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = JoySeeDog.JSDLocalStringDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -310,6 +379,7 @@
 				CFF260E21E8DE24A002D6D15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

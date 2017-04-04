@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  JSDTabBarController.h
 //  JSDLocalStringDemo
 //
-//  Created by jianquan on 31/03/2017.
+//  Created by iseedog on 04/04/2017.
 //  Copyright © 2017 JoySeeDog. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface JSDTabBarController : UITabBarController
 
 @end
-
